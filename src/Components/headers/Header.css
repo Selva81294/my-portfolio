@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+    top :0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.header_left{
+    flex: 0.4;
+}
+
+.header_left > h1 {
+    text-align: center;
+    font-family: "Kalam";
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.header_left> h1 > span{
+    color:	#e62200;
+}
+
+.header_right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_right > a >h4{
+    font-size: 24px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: transform 200ms ease-in-out;
+    font-family: "Dancing Script";
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.header_right > a >h4:hover{
+    transform: scale(1.09);
+    background-color: #e62200;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius:  2px;
+    letter-spacing: 1px;
+    font-family: "Dancing Script";
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header_rightBtn{
+    background-color: #e62200;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
