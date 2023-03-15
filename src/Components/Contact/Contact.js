@@ -2,7 +2,7 @@ import React from 'react'
 import '../Contact/Contact.css'
 import {Element} from "react-scroll"
 import IconButton from '@mui/material/IconButton';
-import {Facebook, LinkedIn, Instagram, FacebookOutlined} from "@mui/icons-material"
+import {Facebook, LinkedIn, Instagram} from "@mui/icons-material"
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
         <h1>Contact</h1>
         <div className='contact_container'>
             <p>
-                Email : <span>selva812494@gmail.com</span>
+                Email : <span>selva81294@gmail.com</span>
             </p>
             <p>
                 Github Username : <span>Selva81294</span>
