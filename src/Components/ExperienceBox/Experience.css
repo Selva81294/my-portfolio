@@ -5,16 +5,23 @@
     flex-direction: column;
     border: 2px dotted whitesmoke;
     border-radius: 10px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height:auto;
     justify-content: center;
     align-items: center;
     background-color: black;
     overflow: hidden;
+    padding: 20px;
 }
 
 .experience > p{
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
+    text-align: center;
 }
+
+.experience > h1{
+    text-align: center;
+}
+

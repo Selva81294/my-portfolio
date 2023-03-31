@@ -43,7 +43,7 @@ const SkillContainer = () => {
                 </div>
             </div>
             <div className='skillContainer_skillset'>
-                <h5>Databases [MongoDB, MySQL]</h5>
+                <h5>Databases [MongoDB, SQL]</h5>
                 <div className='skillContainer_slider skillContainer_slider6'>
                     <LinearProgress variant='determinate' value={80}/>
                 </div>

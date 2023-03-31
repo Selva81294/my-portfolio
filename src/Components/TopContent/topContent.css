@@ -66,3 +66,12 @@
     font-weight: 600;
 }
 
+
+
+@media screen and (max-width: 720px) {
+    .topContent_container{
+        position: absolute;
+        top: 300px;
+        right: 10px;
+    }
+}

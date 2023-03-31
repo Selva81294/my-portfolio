@@ -9,7 +9,7 @@ const ExperienceContainer = () => {
         <h1>Experience</h1>
         <div className='experienceContainer_info'>
             <Experience number="+6 years" title="Quality"/>
-            <Experience number="6+ months" title="Full Stack Developer" style={{backgroundColor : "#e62200"}}/>
+            <Experience number="6+ months course" title="Full Stack Developer" style={{backgroundColor : "#e62200"}}/>
             <Experience number="+3" title="Projects"/>
         </div>
 

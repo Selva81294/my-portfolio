@@ -3,6 +3,7 @@ import "../ProjectContainer/ProjectContainer.css"
 import { Element } from 'react-scroll';
 import Project from '../Project/Project';
 import studentProject from '../../Images/StudentsApp.jpg'
+import stackOverflow from '../../Images/StackOverflow.jpg'
 
 const ProjectContainer = () => {
 
@@ -14,23 +15,11 @@ const client_projects = [
         link: "https://splendorous-crepe-4fcded.netlify.app/"
     },
     {
-        img: "https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg",
-        title: "Facebook",
-        description : "Progress indicators commonly known as spinners, express an unspecified wait time or display the length of a process.",
-        link: "www.google.com"
+        img: stackOverflow,
+        title: "Stock-Overflow-Clone-App",
+        description : "Stack Overflow is a question and answer website for programmers. It is the flagship site of the Stack Exchange Network. It was created in 2008 by Jeff Atwood and Joel Spolsky. It features questions and answers on certain computer programming topics.",
+        link: "https://master--euphonious-liger-57c306.netlify.app/"
     },
-    {
-        img: "https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg",
-        title: "Facebook",
-        description : "Progress indicators commonly known as spinners, express an unspecified wait time or display the length of a process.",
-        link: "www.google.com"
-    },
-    {
-        img: "https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg",
-        title: "Facebook",
-        description : "Progress indicators commonly known as spinners, express an unspecified wait time or display the length of a process.",
-        link: "www.google.com"
-    }
 ]
 
   return (

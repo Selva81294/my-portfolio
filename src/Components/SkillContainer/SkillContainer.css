@@ -76,3 +76,23 @@
     margin-top: 10px;
 }
 
+
+@media screen and (max-width:1000px){
+    .skillContainer_image{
+        flex: 0.2;
+    }
+    .skillContainer_text{
+        flex: 0.8;
+    }
+    .skillContainer_image > img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:600px){
+    .skillContainer_image{
+        display: none;
+    }
+    .skillContainer_text{
+        flex: 1.0;
+    }
+}

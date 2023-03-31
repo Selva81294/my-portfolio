@@ -8,6 +8,6 @@ const Experience = ({number,title,style}) => {
         <p>{title}</p>
     </div>
   )
-}
+  }
 
 export default Experience
