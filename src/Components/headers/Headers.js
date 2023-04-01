@@ -41,7 +41,7 @@ const Headers = () => {
          form.current[i].value = ""
       }
       setText("Message sent successfully")
-      console.log(res)
+      // console.log(res)
     }).catch((err)=>{
       console.log(err)
     })
