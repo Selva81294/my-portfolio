@@ -34,10 +34,13 @@ const Headers = () => {
   const form = useRef()
 
   const sendEmail = ()=> { 
-    console.log(form)
-    setText("Message sent successfully")
     emailjs.sendForm("service_g5hkegu","template_yx3somp",form.current,"AJFIa0g72ZHP76FZQ")
     .then((res)=>{
+       for(let i=0;i<form.current.length;i++){
+        //  console.log(form.current[i].value)
+         form.current[i].value = ""
+      }
+      setText("Message sent successfully")
       console.log(res)
     }).catch((err)=>{
       console.log(err)
