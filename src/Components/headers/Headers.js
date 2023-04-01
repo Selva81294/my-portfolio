@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-scroll";
 import "../headers/Header.css";
 import Box from "@mui/material/Box";
@@ -24,7 +24,8 @@ const style = {
 };
 
 const Headers = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] =useState(false);
+  const [text,setText] = useState("")
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -32,13 +33,13 @@ const Headers = () => {
 
   const form = useRef()
 
-  const sendEmail = (e)=> {
-    
+  const sendEmail = ()=> { 
     console.log(form)
+    setText("Message sent successfully")
     emailjs.sendForm("service_g5hkegu","template_yx3somp",form.current,"AJFIa0g72ZHP76FZQ")
-    .then((res)=>[
+    .then((res)=>{
       console.log(res)
-    ]).catch((err)=>{
+    }).catch((err)=>{
       console.log(err)
     })
   }
@@ -162,6 +163,15 @@ const Headers = () => {
                   <Button type="submit" variant="contained" color="primary">
                     Submit
                   </Button>
+                </Grid>
+                <Grid
+                  container
+                  direction="row"
+                  justifyContent="center"
+                  alignItems="center"
+                  item
+                >
+                <h4 style={{color:"green"}}>{text}</h4>
                 </Grid>
               </Grid>
               </form>
