@@ -21,12 +21,6 @@ const client_projects = [
         description : "This App provides realtime 1-on-1 chat and group chat using socket.io. Notification and typing indication functionality also applied in this app.",
         link: "https://keen-sorbet-c69c44.netlify.app/"
     },
-    {
-      img: studentProject,
-      title: "Students App",
-      description : "Here you can see students lists, add, update and delete option also available",
-      link: "https://splendorous-crepe-4fcded.netlify.app/"
-  },
 ]
 
   return (
