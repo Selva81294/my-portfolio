@@ -10,7 +10,7 @@ const ProjectContainer = () => {
 const client_projects = [
     {
         img: stackOverflow,
-        title: "Stock-Overflow-Clone-App",
+        title: "Stack-Overflow-Clone-App",
         description : "Stack Overflow is a question and answer website for programmers. It is the flagship site of the Stack Exchange Network. It was created in 2008 by Jeff Atwood and Joel Spolsky. It features questions and answers on certain computer programming topics.",
         link: "https://master--euphonious-liger-57c306.netlify.app/"
     },
