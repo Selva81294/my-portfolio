@@ -87,12 +87,25 @@
     .skillContainer_image > img{
         width: 300px;
     }
+    .skillContainer_text{
+        max-width: 400px; 
+    }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .skillContainer_image{
         display: none;
     }
     .skillContainer_text{
         flex: 1.0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .skillContainer_text{
+        max-width: 400px; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .skillContainer_text{
+        max-width: 300px; 
     }
 }

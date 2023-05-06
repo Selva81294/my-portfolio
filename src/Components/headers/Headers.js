@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Backdrop from "@mui/material/Backdrop";
 import Fade from "@mui/material/Fade";
-import { Button, Grid, TextField } from "@mui/material";
+import { Button, Grid, TextField, useMediaQuery } from "@mui/material";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 
@@ -56,7 +56,8 @@ const Headers = () => {
       </div>
       <div className="header_right">
         <Link to="about" smooth={true} duration={500}>
-          <h4>About Me</h4>
+            <h4>About Me</h4>
+          {/* <h4>About Me</h4> */}
         </Link>
         <Link to="skills" smooth={true} duration={500}>
           <h4>Skills</h4>

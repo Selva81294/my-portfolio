@@ -2,7 +2,6 @@ import React from 'react'
 import "../ProjectContainer/ProjectContainer.css"
 import { Element } from 'react-scroll';
 import Project from '../Project/Project';
-import studentProject from '../../Images/StudentsApp.jpg'
 import stackOverflow from '../../Images/StackOverflow.jpg'
 import chatApp from "../../Images/ChatApp.JPG"
 

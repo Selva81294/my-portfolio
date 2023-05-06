@@ -25,3 +25,42 @@
     text-align: center;
 }
 
+@media screen and (max-width:1000px) {
+    .experience{
+        width:200px
+    }
+}
+@media screen and (max-width:750px) {
+    .experience{
+        width:auto
+    }
+    .experience > h1{
+        font-size: 22px;
+    }
+    .experience > p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:600px) {
+    .experience{
+        width:auto
+    }
+    .experience > h1{
+        font-size: 18px;
+    }
+    .experience > p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+    .experience{
+        width:auto
+    }
+    .experience > h1{
+        font-size: 12px;
+    }
+    .experience > p{
+        font-size: 8px;
+    }
+}
+
