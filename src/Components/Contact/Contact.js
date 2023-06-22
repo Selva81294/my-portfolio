@@ -24,12 +24,12 @@ const Contact = () => {
                       <LinkedIn/>   
                     </IconButton>
                 </a>
-                <a href='www.google.com'>
+                <a href='https://www.facebook.com/ilayaselva/'>
                     <IconButton>
                       <Facebook/>   
                     </IconButton>
                 </a>
-                <a href='www.google.com'>
+                <a href='https://www.instagram.com/thalapathy_selva8/'>
                     <IconButton>
                       <Instagram/>   
                     </IconButton>
