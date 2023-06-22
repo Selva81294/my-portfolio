@@ -10,7 +10,7 @@ const TopContent = () => {
             <h1>Mr. Selva Kumaran</h1> 
             <p>A Full Stack Web & App Developer</p>
             <a href= {Resume} download>
-                <button className='topContent_downloadBtn'>Download CV</button>
+                <button className='topContent_downloadBtn'>Download Resume</button>
             </a>
             <Link to="projects" smooth={true} duration={500}>
                 <button className='topContent_workBtn'>My Work</button>
