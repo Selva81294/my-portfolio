@@ -3,7 +3,6 @@
 .topContent{
     color: whitesmoke; 
     position: relative;
-    overflow:visible !important;
 }
 
 .topContent_container{
