@@ -18,5 +18,6 @@
     width: 60vw;
     margin-top: 50px;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 

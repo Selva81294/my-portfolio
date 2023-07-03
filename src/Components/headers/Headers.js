@@ -57,7 +57,6 @@ const Headers = () => {
       <div className="header_right">
         <Link to="about" smooth={true} duration={500}>
             <h4>About Me</h4>
-          {/* <h4>About Me</h4> */}
         </Link>
         <Link to="skills" smooth={true} duration={500}>
           <h4>Skills</h4>
