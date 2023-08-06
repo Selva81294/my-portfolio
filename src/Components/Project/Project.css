@@ -48,6 +48,7 @@
     font-weight: bolder;
     border-radius: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .project_appBtn:hover{
@@ -64,6 +65,7 @@
     font-weight: bolder;
     border-radius: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .project_codeBtnFE:hover{
@@ -80,6 +82,7 @@
     font-weight: bolder;
     border-radius: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .project_codeBtnBE:hover{
