@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import '../Project/Project.css'
 
-const Project = ({img,title,description,link}) => {
+const Project = ({img,title,description,applink,codelinkFE,codelinkBE}) => {
 const [show,setShow] = useState(false)
+
+function newTab(url){
+    window.open(url)
+  }
+
   return (
-    <a href={link}>
         <div className='project' onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
             {
                 show ? (
@@ -16,8 +20,12 @@ const [show,setShow] = useState(false)
                     <img src={img} alt=''/>
                 )
             }
+            <div className='project_btn'>
+                <button className='project_appBtn' onClick={()=>newTab(`${applink}`)}>View App</button>
+                <button className='project_codeBtnFE' onClick={()=>newTab(`${codelinkFE}`)}>Get Code(FE)</button>
+                <button className='project_codeBtnBE' onClick={()=>newTab(`${codelinkBE}`)}>Get Code(BE)</button>
+            </div>
         </div>
-    </a>
   )
 }
 

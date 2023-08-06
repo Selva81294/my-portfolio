@@ -13,21 +13,27 @@ const ProjectContainer = () => {
       title: "EazyShop-Ecommerce-Website",
       description:
         "An ecommerce app allows users to shop online, browse product catalogs, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.",
-      link: "https://starlit-boba-48ae2d.netlify.app/",
+      applink: "https://starlit-boba-48ae2d.netlify.app/",
+      codelinkFE: "https://github.com/Selva81294/e-commerce-frontend",
+      codelinkBE: "https://github.com/Selva81294/e-commerce-backend",
     },
     {
       img: chatApp,
       title: "Fun-Chaters-Chat-App",
       description:
         "This App provides realtime 1-on-1 chat and group chat using socket.io. Notification and typing indication functionality also applied in this app.",
-      link: "https://keen-sorbet-c69c44.netlify.app/",
+      applink: "https://keen-sorbet-c69c44.netlify.app/",
+      codelinkFE: "https://github.com/Selva81294/Chat-App-Frontend",
+      codelinkBE: "https://github.com/Selva81294/Chat-App-Backend",
     },
     {
       img: stackOverflow,
       title: "Stack-Overflow-Clone-App",
       description:
         "Stack Overflow is a question and answer website for programmers. It is the flagship site of the Stack Exchange Network. It was created in 2008 by Jeff Atwood and Joel Spolsky. It features questions and answers on certain computer programming topics.",
-      link: "https://master--euphonious-liger-57c306.netlify.app/",
+      applink: "https://master--euphonious-liger-57c306.netlify.app/",
+      codelinkFE: "https://github.com/Selva81294/stack-overflow-frontend",
+      codelinkBE: "https://github.com/Selva81294/stack-overflow-backend",
     },
   ];
 
@@ -41,7 +47,9 @@ const ProjectContainer = () => {
             img={projects.img}
             title={projects.title}
             description={projects.description}
-            link={projects.link}
+            applink={projects.applink}
+            codelinkFE={projects.codelinkFE}
+            codelinkBE={projects.codelinkBE}
           />
         ))}
       </div>
