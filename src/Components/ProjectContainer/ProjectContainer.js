@@ -5,6 +5,7 @@ import Project from "../Project/Project";
 import stackOverflow from "../../Images/StackOverflow.jpg";
 import chatApp from "../../Images/ChatApp.JPG";
 import eazyPay from "../../Images/EazyPay.JPG";
+import bookApp from "../../Images/BookApp.JPG"
 
 const ProjectContainer = () => {
   const client_projects = [
@@ -34,6 +35,14 @@ const ProjectContainer = () => {
       applink: "https://master--euphonious-liger-57c306.netlify.app/",
       codelinkFE: "https://github.com/Selva81294/stack-overflow-frontend",
       codelinkBE: "https://github.com/Selva81294/stack-overflow-backend",
+    },
+    {
+      img: bookApp,
+      title: "Book APP using Google API",
+      description:
+        "This app offers a quick view of the content so that you can judge the book's relevance. It lets you decide whether you want to read the whole book or not. Additionally, full book link also attached.",
+      applink: "https://main--singular-daifuku-1aeb4b.netlify.app/",
+      codelinkFE: "https://github.com/Selva81294/Book-APP-using-Google-Book-API",
     },
   ];
 

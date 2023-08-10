@@ -22,8 +22,18 @@ function newTab(url){
             }
             <div className='project_btn'>
                 <button className='project_appBtn' onClick={()=>newTab(`${applink}`)}>View App</button>
-                <button className='project_codeBtnFE' onClick={()=>newTab(`${codelinkFE}`)}>Get Code(FE)</button>
-                <button className='project_codeBtnBE' onClick={()=>newTab(`${codelinkBE}`)}>Get Code(BE)</button>
+                {
+                    codelinkFE ? (
+                        <button className='project_codeBtnFE' onClick={()=>newTab(`${codelinkFE}`)}>Get Code(FE)</button>
+                    ) : ""
+                }
+                {
+                    codelinkBE ? (
+                        <button className='project_codeBtnBE' onClick={()=>newTab(`${codelinkBE}`)}>Get Code(BE)</button>
+                    ) : ""
+                }
+                
+                
             </div>
         </div>
   )
